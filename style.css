@@ -70,10 +70,12 @@ div.div2 img{
     line-height: 1.2;
     color: chartreuse;
     font-size: 40px;
-    background-image: url(images/dan.jpg);
+    background-image: url(dan.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
+    margin: 25px;
+    padding: 25px;
 }
 table{
     font-family: Arial, sans-serif;
