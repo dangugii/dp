@@ -1,0 +1,91 @@
+body{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:powderblue
+}
+a:link{
+    color: green;
+    background-color:transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: hotpink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration:  dotted blue;
+}
+a:active{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.without{
+    margin: 25px;
+    color: red;
+    text-align: center;
+    
+}
+.without audio:hover{
+    color:blue;
+    background-color: hotpink;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.image1 img{
+    width: 180px;
+    height: 180px;
+}
+.image2 img{
+    height: 250px;
+    width: 250px;
+    float: inherit;
+}
+.image2 img:hover{
+    color: black;
+    background-color: yellow;
+}
+div{
+    float: left;
+    padding: 15px;
+}
+div.div1 img,.div2 img, .div3 img{
+    background-color: yellow;
+    height: 180px;
+    width: 180px;
+    border: 4px dotted darkgreen;
+    border-radius: 50%;
+}
+div.div2 img{
+    background-color: blue;
+    border: 4px dotted red;
+}
+.chpt4p1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.2;
+    color: chartreuse;
+    font-size: 40px;
+    background-image: url(images/dan.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+table{
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: rgb(19, 75, 8);
+}
+td, th{
+    border: 2px solid #141313;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #141313;
+}
